@@ -1,0 +1,73 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { 
+    list-style: circle;
+    padding-left: 15px;
+    line-height: 200%;
+}
+a { color:blue; text-decoration: none;}
+hr {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 3rem;
+    text-align: justify;
+}
+main {
+    text-indent: 2rem;
+}
+h1, h2, h3 {
+    text-indent: 0;
+}
+footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+    background-color: #d1d1d1e1;
+    text-align: center;
+    align-content: center;
+}
+section {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+nav {
+    border-right: solid 1px #cdcdcd;
+}
+figure {
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+thead {
+    border: 1px solid #ddd;
+}
+td, th {
+    border: 1px solid #ddd;
+}
+#coluna-1 {
+    width: 45%;
+}
+#coluna-2 {
+    width: 20%;
+}
+#coluna-3 {
+    width: 35%;
+}
